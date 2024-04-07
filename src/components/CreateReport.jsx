@@ -12,7 +12,7 @@ const CraeteReport = () => {
   return (
     <div className='flex bg-black ' >
       <Header />
-      <div className="p-7 text-2xl font-semibold flex-1  border border-gray-500 border-double rounded-2xl bg-indigo-950 h-[1200px] ml-[320px]">
+      <div className="p-7 text-2xl font-semibold flex-1  border border-gray-500 border-double rounded-2xl bg-indigo-950 h-auto ml-[320px]">
         <div className='flex items-center justify-center'>
           <Search />
         </div>
@@ -43,7 +43,7 @@ const CraeteReport = () => {
           <CardTwo />
         </div>
         <div className='flex items-center justify-evenly w-full'>
-          <DataTable />
+          <DataTable/>
         </div>
       </div>
     </div>
